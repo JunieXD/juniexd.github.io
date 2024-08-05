@@ -1,17 +1,20 @@
-site_name: Junie's Blog
+site_name: Junie's blog
+site_author: JunieXD
 site_url: http://juniexd.blog
-# Copyright
+repo_name: 'juniexd.blog'
+repo_url: https://github.com/JunieXD/juniexd.github.io/
 copyright: Copyright &copy; 2024 JunieXD
 extra_css:
   - stylesheets/extra.css
 theme:
   name: material
-  favicon: images/logo.png
+  favicon: assets/images/logo.png
+  icon: assets/images/logo.png
   # 颜色
   palette:
     # Palette toggle for light mode
     - scheme: default
-      primary: indigo
+      primary: white
       accent: indigo
       toggle:
         icon: material/weather-sunny
@@ -33,14 +36,9 @@ theme:
     - navigation.instant
     - navigation.tracking   #地址栏中的 URL 将自动更新为在目录中突出显示的活动锚点
     - navigation.tabs   #顶级部分将呈现在上面视口标题下方的菜单层中，但在移动设备上保持原样
+    - navigation.indexes
     - navigation.top   # 返回顶部的按钮 在上滑时出现
-    - navigation.sections
     - search.highlight   # 搜索出的文章关键词加入高亮
-    - navigation.expand   # 打开Tab时左侧目录全部展开
-nav: 
-- 首页: index.md
-- 关于:
-  - 作者: about/JunieXD.md
 
 extra:
   generator: false  #删除页脚显示“使用 MkDocs 材料制造”
@@ -49,10 +47,12 @@ extra:
       link: https://github.com/juniexd
     - icon: fontawesome/brands/bilibili
       link: https://space.bilibili.com/90566095
-  disqus: JunieXD
+  #disqus: JunieXD
 
 markdown_extensions:
+  - nl2br
   - abbr
+  - pymdownx.betterem
   - pymdownx.caret
   - pymdownx.mark
   - pymdownx.tilde
@@ -74,8 +74,7 @@ markdown_extensions:
   - pymdownx.emoji:
       emoji_index: !!python/name:materialx.emoji.twemoji
       emoji_generator: !!python/name:materialx.emoji.to_svg
-  - pymdownx.superfences # 代码块高亮插件
-  - meta # 支持Markdown文件上方自定义标题标签等
+  - meta
 
 extra_javascript:
   - javascripts/mathjax.js
@@ -83,3 +82,22 @@ extra_javascript:
   - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
 extra_css:
   - stylesheets/extra.css
+  - https://cdn.jsdelivr.net/npm/lxgw-wenkai-webfont@1.1.0/style.css
+  - https://cdn.jsdelivr.net/npm/lxgw-wenkai-screen-webfont@1.1.0/style.css
+  - https://fonts.loli.net/css?family=JetBrains Mono:400,500,600,700&display=swap
+  - https://fonts.loli.net/css2?family=Noto Sans SC&display=swap
+  - https://fonts.loli.net/css2?family=Noto Serif SC:wght@500&display=swap
+  - https://fonts.loli.net/css2?family=Libre Caslon Text:ital,wght@0,400;0,700;1,400&display=swap
+
+plugins:
+  - search
+  - callouts
+
+nav:
+  - 首页:
+    - index.md
+  - 笔记:
+    - notes/index.md
+    - notes/git.md
+  - 思考:
+    - thoughts/index.md
