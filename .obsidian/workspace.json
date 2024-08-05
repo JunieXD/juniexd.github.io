@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/thoughts/jyy.md",
+                "file": "docs/thoughts/index.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "docs/thoughts/jyy.md",
+                "file": "docs/thoughts/index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "docs/thoughts/jyy.md",
+                "file": "docs/thoughts/index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "docs/thoughts/jyy.md"
+                "file": "docs/thoughts/index.md"
               }
             }
           }
@@ -148,10 +148,10 @@
   },
   "active": "b360ff33537944d5",
   "lastOpenFiles": [
-    "docs/index.md",
-    "docs/thoughts/jyy.md",
-    "docs/thoughts/index.md",
     "docs/notes/index.md",
+    "docs/thoughts/jyy.md",
+    "docs/index.md",
+    "docs/thoughts/index.md",
     "docs/notes/git.md",
     "docs/assets/images/git_2.png",
     "notes/git.html.md",

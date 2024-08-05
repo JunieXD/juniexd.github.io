@@ -16,4 +16,4 @@ comments: false
 
 ## 思考
 
-- [jyy老师的一段话引发的共鸣](/notes/jyy/)
+- [jyy老师的一段话引发的共鸣](/thoughts/jyy/)
