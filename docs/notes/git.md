@@ -73,7 +73,7 @@ git clone <url>
 > - 暂存区（Staging Area/Index）：在`git add`后暂存的区域
 > - 本地仓库（Local Directory）：在`git commit`成功提交后存储的区域
 
-![](../assets/images/git_1.png)
+![](../assets/images/git_1_compressed.png)
 
 ### 四种状态（States）
 
@@ -85,4 +85,4 @@ git clone <url>
 > 
 > 状态间的转换如下图所示
 
-![](../assets/images/git_2.png)
+![](../assets/images/git_2_compressed.png)
