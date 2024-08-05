@@ -38,7 +38,6 @@ theme:
     - navigation.tabs   #顶级部分将呈现在上面视口标题下方的菜单层中，但在移动设备上保持原样
     - navigation.indexes
     - navigation.top   # 返回顶部的按钮 在上滑时出现
-    - search.highlight   # 搜索出的文章关键词加入高亮
 
 extra:
   generator: false  #删除页脚显示“使用 MkDocs 材料制造”
