@@ -82,7 +82,7 @@ git clone <url>
 > - 未修改（Unmodified）
 > - 已修改（Modified）
 > - 已暂存（Staged）
-> 
-> 状态间的转换如下图所示
+
+状态间的转换如下图所示
 
 ![](../assets/images/git_2_compressed.png)
