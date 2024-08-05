@@ -1,17 +1,35 @@
-# Welcome to MkDocs
+# 主页
+测试
+??? success
+    成功
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+??? bug
+	这是个bug
 
-## Commands
-
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
-
-## Project layout
-
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+!!! Note
+    这是一个note
+!!! Abstract
+    这是一个abstract
+!!! Info
+    这是一个info
+!!! Tip
+    这是一个tip
+!!! Success
+    这是一个success
+!!! Question
+    这是一个question
+!!! Warning
+    这是一个warning
+!!! Failure
+    这是一个failure
+!!! Danger
+    这是一个danger
+!!! Bug
+    这是一个bug
+!!! Example
+    这是一个example
+!!! Quote
+    这是一个quote
+$$
+\frac{a}{b}
+$$
