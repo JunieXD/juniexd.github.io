@@ -64,4 +64,26 @@ git clone <url>
 ```
 > `<url>` 处填写远程仓库地址，如：`https://github.com/JunieXD/juniexd.github.io.git`
 
+## 概念
 
+### 三个区域（Directory）
+
+> [!note] 工作区（Working Directory）
+> 当前正在进行工作的区域
+> [!note] 暂存区（Staging Area/Index）
+> 在`git add`后暂存的区域
+> [!note] 本地仓库（Local Directory）
+> 在`git commit`成功提交后存储的区域
+
+![](../assets/images/git_1.png)
+
+### 四种状态（States）
+
+> [!note] 文件的四种状态
+> - 未跟踪（Untrack）
+> - 未修改（Unmodified）
+> - 已修改（Modified）
+> - 已暂存（Staged）
+> 
+> 状态间的转换请看下图
+![](../assets/images/git_2.png)

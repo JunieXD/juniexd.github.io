@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "c4c2687003df2253",
+        "id": "07417640c15c8d1b",
         "type": "tabs",
         "children": [
           {
-            "id": "7f474ec558eaabec",
+            "id": "b360ff33537944d5",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/index.md",
+                "file": "docs/notes/git.md",
                 "mode": "source",
                 "source": true
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "docs/index.md",
+                "file": "docs/notes/git.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "docs/index.md",
+                "file": "docs/notes/git.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "docs/index.md"
+                "file": "docs/notes/git.md"
               }
             }
           }
@@ -146,13 +146,19 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "7f474ec558eaabec",
+  "active": "b360ff33537944d5",
   "lastOpenFiles": [
-    "docs/notes/git.md",
+    "docs/assets/images/git_2.png",
     "docs/notes/index.md",
-    "readme.md",
-    "docs/thoughts/index.md",
+    "docs/notes/git.md",
     "docs/index.md",
+    "docs/thoughts/index.md",
+    "notes/git.html.md",
+    "notes/git.md",
+    "notes",
+    "docs/assets/images/git_1.png",
+    "docs/assets/images/新建文件夹",
+    "readme.md",
     "overrides/partials/comments.html",
     "overrides/partials",
     "overrides"

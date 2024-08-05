@@ -49,6 +49,8 @@ extra:
   #disqus: JunieXD
 
 markdown_extensions:
+  - attr_list
+  - md_in_html
   - nl2br
   - abbr
   - pymdownx.betterem
