@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "1be34fa58b4229b5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "docs/thoughts/jyy.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "docs/thoughts/index.md",
+                "file": "docs/thoughts/jyy.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "docs/thoughts/index.md",
+                "file": "docs/thoughts/jyy.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "docs/thoughts/index.md"
+                "file": "docs/thoughts/jyy.md"
               }
             }
           }
@@ -146,12 +159,14 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "b360ff33537944d5",
+  "active": "1be34fa58b4229b5",
   "lastOpenFiles": [
+    "thoughts/jyy.md",
+    "docs/thoughts/index.md",
+    "thoughts",
     "docs/notes/index.md",
     "docs/thoughts/jyy.md",
     "docs/index.md",
-    "docs/thoughts/index.md",
     "docs/notes/git.md",
     "docs/assets/images/git_2.png",
     "notes/git.html.md",
