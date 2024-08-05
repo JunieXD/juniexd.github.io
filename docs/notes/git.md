@@ -68,12 +68,10 @@ git clone <url>
 
 ### 三个区域（Directory）
 
-> [!note] 工作区（Working Directory）
-> 当前正在进行工作的区域
-> [!note] 暂存区（Staging Area/Index）
-> 在`git add`后暂存的区域
-> [!note] 本地仓库（Local Directory）
-> 在`git commit`成功提交后存储的区域
+> [!note] 文件所在的三个区域
+> - 工作区（Working Directory）：当前正在进行工作的区域
+> - 暂存区（Staging Area/Index）：在`git add`后暂存的区域
+> - 本地仓库（Local Directory）：在`git commit`成功提交后存储的区域
 
 ![](../assets/images/git_1.png)
 
@@ -85,5 +83,6 @@ git clone <url>
 > - 已修改（Modified）
 > - 已暂存（Staged）
 > 
-> 状态间的转换请看下图
+> 状态间的转换如下图所示
+
 ![](../assets/images/git_2.png)

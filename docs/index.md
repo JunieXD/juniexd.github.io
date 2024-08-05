@@ -15,3 +15,5 @@ comments: false
 - [Git版本控制](/notes/git/)
 
 ## 思考
+
+- [jyy老师的一段话引发的共鸣](/notes/jyy/)

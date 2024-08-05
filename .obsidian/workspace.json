@@ -13,9 +13,9 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/notes/git.md",
+                "file": "docs/index.md",
                 "mode": "source",
-                "source": true
+                "source": false
               }
             }
           }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "docs/notes/git.md",
+                "file": "docs/index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "docs/notes/git.md",
+                "file": "docs/index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "docs/notes/git.md"
+                "file": "docs/index.md"
               }
             }
           }
@@ -148,11 +148,12 @@
   },
   "active": "b360ff33537944d5",
   "lastOpenFiles": [
-    "docs/assets/images/git_2.png",
+    "docs/thoughts/jyy.md",
+    "docs/thoughts/index.md",
+    "docs/index.md",
     "docs/notes/index.md",
     "docs/notes/git.md",
-    "docs/index.md",
-    "docs/thoughts/index.md",
+    "docs/assets/images/git_2.png",
     "notes/git.html.md",
     "notes/git.md",
     "notes",
