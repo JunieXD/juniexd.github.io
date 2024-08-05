@@ -8,8 +8,8 @@ extra_css:
   - stylesheets/extra.css
 theme:
   name: material
+  custom_dir: overrides
   favicon: assets/images/logo.png
-  icon: assets/images/logo.png
   # 颜色
   palette:
     # Palette toggle for light mode

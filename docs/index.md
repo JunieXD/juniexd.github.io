@@ -1,6 +1,7 @@
 ---
 title: 欢迎来到 Junie 的博客
 date: 2024-08-05
+comments: false
 ---
 
 > [!quote] 物来顺应，未来不迎，当时不杂，既过不恋。

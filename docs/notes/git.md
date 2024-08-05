@@ -1,6 +1,7 @@
 ---
 title: Git版本控制
 date: 2024-08-05
+comments: true
 ---
 
 > [!abstract] 简介
@@ -29,14 +30,19 @@ date: 2024-08-05
 ### 配置Git
 
 #### 用户名
+
 ```
 git config --global user.name "your name"
 ```
+
 #### 邮箱
+
 ```
 git config --global user.email "your email"
 ```
+
 #### 查看配置文件
+
 ```
 git config --global --list
 ```
@@ -44,6 +50,7 @@ git config --global --list
 ### 创建仓库
 
 #### 新建
+
 进入到目录后
 ```
 git init
@@ -51,8 +58,10 @@ git init
 会出现一个`.git`文件夹，用于存储仓库信息
 
 #### 克隆
+
 ```
 git clone <url>
 ```
 > `<url>` 处填写远程仓库地址，如：`https://github.com/JunieXD/juniexd.github.io.git`
+
 
