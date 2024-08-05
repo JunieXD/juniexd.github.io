@@ -1,4 +1,4 @@
-# [Junie's blog](juniexd.blog)
+# [Junie's blog](http://juniexd.blog)
 
 This blog is to record my study notes and thoughts.
 It is made with [Material for MkDocs](https://github.com/squidfunk/mkdocs-material).
