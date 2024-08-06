@@ -194,6 +194,12 @@ git diff <verison1> <version2> src
 ```
 > 查看两个版本之间的文件夹 src 的差异
 
+### 删除暂存区中的文件
+
+```
+git rm <filename>
+```
+> 会同时删除暂存区和工作区的文件，用以简化操作（先删工作区再 `git add` 到暂存区）。
 ## 概念
 
 ### 三个区域（Directory）
