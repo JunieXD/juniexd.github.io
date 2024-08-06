@@ -64,6 +64,135 @@ git clone <url>
 ```
 > `<url>` 处填写远程仓库地址，如：`https://github.com/JunieXD/juniexd.github.io.git`
 
+### 添加到仓库
+
+#### 添加到暂存区
+
+```
+git add <filename>
+```
+> `filename` 是文件名，可以使用通配符。
+
+> [!tip] 提示
+> 使用 `git add .` 可以把当前目录的所有文件添加到暂存区。
+
+#### 查看状态
+
+```
+git status
+```
+
+#### 查看仓库文件
+
+```
+git ls-files <args>
+```
+> `<args>` 缺省列出所有已跟踪的文件，包括已修改但尚未暂存的文件。
+> `-c` 只列出已经通过 git add 添加到暂存区的文件。
+> `-o` 只列出未跟踪的文件。
+> `-u` 只列出有合并冲突的文件。
+#### 提交到仓库
+
+```
+git commit -m "message"
+```
+> `message` 是提交的信息
+
+> [!warning] 注意
+> 如果不使用 `-m` 参数，会进入输入提交信息的页面（默认打开vim编辑器）
+
+#### 查看提交记录
+
+```
+git log
+```
+
+> [!tip] 提示
+> `git log --oneline` 查看简洁的提交记录
+
+### 回退仓库
+
+```
+git reset <args> <version>
+```
+> `<args>` 参数可以使用 `--soft` `--hard` `--mixed` 默认参数是 `--mixed`
+> `<version>` 参数指定要回退到的版本号（使用 `git log` 查看）
+
+> [!tip] 提示
+> `<version>` 可以使用 `HEAD^` 回退到上一个版本
+
+| 参数      | 工作区 | 暂存区 |
+| ------- | --- | --- |
+| --soft  | √   | √   |
+| --hard  | ×   | ×   |
+| --mixed | √   | ×   |
+#### 查看操作的历史记录
+
+```
+git reflog
+```
+> 可以找到某次误操作之前的版本号进行回退
+
+### 查看文件差异
+
+#### 工作区和暂存区
+
+```
+git diff
+```
+> 查看工作区和暂存区之间所有的文件差异
+
+```
+git diff -- <filename1> <filename2> ...
+```
+> 查看一个或多个文件在工作区和暂存区之间的差异
+
+#### 工作区和版本库
+
+```
+git diff <version>
+```
+> 查看工作区与具体某个提交版本之间的所有的文件差异
+
+> [!tip] 提示
+> `git diff HEAD` 查看工作区与最新版本库之间的所有的文件差异
+> 
+> `git diff <version> -- <filename1> <filename2> ...` 查看工作区与最具体某个版本之间的 指定文件名的多个文件差异
+#### 暂存区和版本库
+
+```
+git diff --cached <version>
+```
+> 查看暂存区和指定版本之间的所有文件差异
+> `<version>` 缺省则是最新版本（HEAD）
+
+```
+git diff --cached <version> -- <filename1> <filename2> ...
+```
+> 查看暂存区和指定版本之间的指定文件差异
+
+#### 不同版本之间
+
+```
+git diff <verison1> <version2>
+```
+> 查看两个版本之间的差异
+
+```
+git diff <verison1> <version2> -- <filename1> <filename2> ...
+```
+> 查看两个版本之间的指定文件之间的差异
+
+```
+git diff <verison1> <version2> --stat
+```
+> 查看两个版本之间的改动的文件列表
+
+```
+git diff <verison1> <version2> src
+```
+> 查看两个版本之间的文件夹 src 的差异
+
 ## 概念
 
 ### 三个区域（Directory）

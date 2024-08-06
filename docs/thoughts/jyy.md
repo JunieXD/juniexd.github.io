@@ -4,7 +4,9 @@ date: 2024-08-05
 comments: true
 author: Junie
 ---
+
 > 作者：Junie
+> 日期：2024-08-05
 
 最近在南京大学的《计算机系统基础》课程的实验（[Programming Assignment](https://nju-projectn.github.io/ics-pa-gitbook/ics2024/)）中无意看到[jyy](https://jyywiki.cn/)老师的一段话：
 
