@@ -27,7 +27,7 @@
               "state": {
                 "file": "docs/notes/git.md",
                 "mode": "source",
-                "source": false
+                "source": true
               }
             }
           }
@@ -143,7 +143,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -160,7 +161,7 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "08c217859adc0956",
+  "active": "1be34fa58b4229b5",
   "lastOpenFiles": [
     "docs/comments/index.md",
     "docs/notes/index.md",
