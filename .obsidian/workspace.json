@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/notes/git.md",
+                "file": "docs/comments/index.md",
                 "mode": "source",
                 "source": false
               }
@@ -82,8 +82,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "2df9cf6c725616a5",
@@ -99,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "docs/notes/git.md",
+                "file": "docs/comments/index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "docs/notes/git.md",
+                "file": "docs/comments/index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "docs/notes/git.md"
+                "file": "docs/comments/index.md"
               }
             }
           }
@@ -164,15 +163,18 @@
   "lastOpenFiles": [
     "docs/notes/index.md",
     "docs/thoughts/index.md",
-    "docs/thoughts/jyy.md",
+    "docs/index.md",
+    "comments.md",
+    "docs/comments/index.md",
+    "docs/comments",
     "docs/notes/git.md",
+    "docs/thoughts/jyy.md",
     "docs/assets/images/git_1_compressed.png",
     "docs/assets/images/git_2_compressed.png",
     "docs/assets/images/git_1_压缩后.png",
     "docs/assets/images/git_2_压缩后.png",
     "thoughts/jyy.md",
     "thoughts",
-    "docs/index.md",
     "docs/assets/images/git_2.png",
     "notes/git.html.md",
     "notes/git.md",

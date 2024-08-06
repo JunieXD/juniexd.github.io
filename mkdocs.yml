@@ -103,3 +103,5 @@ nav:
   - 思考:
     - thoughts/index.md
     - thoughts/jyy.md
+  - 留言板:
+    - comments/index.md
