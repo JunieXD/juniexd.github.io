@@ -4,7 +4,7 @@ date: 2024-08-05
 comments: false
 ---
 
-> [!quote] 物来顺应，未来不迎，当时不杂，既过不恋。
+> [!quote] Make your hands dirty first.
 
 此博客用于记录作者本人的学习笔记与思考。
 
