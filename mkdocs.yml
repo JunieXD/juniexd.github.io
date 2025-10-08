@@ -1,9 +1,9 @@
 site_name: Junie's blog
 site_author: JunieXD
-site_url: https://juniexd.github.io
+site_url: https://juniexd.cn
 repo_name: 'juniexd.github.io'
 repo_url: https://github.com/JunieXD/juniexd.github.io/
-copyright: Copyright &copy; 2024 JunieXD
+copyright: Copyright &copy; 2025 JunieXD
 extra_css:
   - stylesheets/extra.css
 theme:
