@@ -3,7 +3,7 @@ site_author: JunieXD
 site_url: https://juniexd.cn
 repo_name: 'juniexd.github.io'
 repo_url: https://github.com/JunieXD/juniexd.github.io/
-copyright: Copyright &copy; 2025 JunieXD
+copyright: Copyright &copy; 2025 JunieXD 
 extra_css:
   - stylesheets/extra.css
 theme:
@@ -44,8 +44,9 @@ extra:
   social:
     - icon: fontawesome/brands/github
       link: https://github.com/juniexd
-    - icon: fontawesome/brands/bilibili
-      link: https://space.bilibili.com/90566095
+    - icon: fontawesome/regular/envelope #联系方式图标
+      link: mailto:<juniexd@163.com> #邮件联系方式
+
   #disqus: JunieXD
 
 markdown_extensions:
@@ -84,12 +85,11 @@ extra_javascript:
 
 extra_css:
   - stylesheets/extra.css
-  - stylesheets/lxgw-wenkai.css
-  - stylesheets/lxgw-wenkai-screen.css
-  - stylesheets/jetbrains-mono.css
-  - stylesheets/noto-sans-sc.css
-  - stylesheets/noto-serif-sc.css
-  - stylesheets/libre-caslon-text.css
+  - https://cdn.jsdelivr.net/npm/lxgw-wenkai-screen-webfont@1.1.0/style.css
+  - https://fonts.loli.net/css?family=JetBrains Mono:400,500,600,700&display=swap
+  - https://fonts.loli.net/css2?family=Noto Sans SC&display=swap
+  - https://fonts.loli.net/css2?family=Noto Serif SC:wght@500&display=swap
+  - https://fonts.loli.net/css2?family=Libre Caslon Text:ital,wght@0,400;0,700;1,400&display=swap
 
 plugins:
   - search
