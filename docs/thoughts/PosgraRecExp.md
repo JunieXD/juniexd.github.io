@@ -18,7 +18,7 @@ author: Junie
 
 - 江西某四非
 - 计科专业 rank 1 / 130+
-- CET6 过了但不到 500
+- CET6 470
 - 无 ACM 牌子，蓝桥杯 Python&Java 国一、天梯赛个人国三
 - 无 paper ，包装了一段科研经历、三个课程项目
 
