@@ -44,8 +44,6 @@ extra:
   social:
     - icon: fontawesome/brands/github
       link: https://github.com/juniexd
-    - icon: fontawesome/regular/envelope #联系方式图标
-      link: mailto:<juniexd@163.com> #邮件联系方式
 
   #disqus: JunieXD
 
