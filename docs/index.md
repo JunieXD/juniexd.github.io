@@ -13,7 +13,8 @@ comments: false
 ---
 ## 笔记
 
-- [Git版本控制](/notes/git/)
+- [Git 版本控制](/notes/git/)
+- [Vue 基础知识](/notes/VueBasis/)
 
 ---
 ## 思考

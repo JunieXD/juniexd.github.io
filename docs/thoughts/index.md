@@ -1,6 +1,6 @@
 ---
 title: 思考
-comments: true
+comments: false
 ---
 
 > 此处用于记录我的思考。

@@ -99,6 +99,7 @@ nav:
   - 笔记:
     - notes/index.md
     - notes/git.md
+    - notes/VueBasis.md
   - 思考:
     - thoughts/index.md
     - thoughts/jyy.md
