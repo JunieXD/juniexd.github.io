@@ -16,6 +16,7 @@ comments: false
 - [Git 版本控制](/notes/git/)
 - [Vue 基础知识](/notes/VueBasis/)
 - [Tailwindcss 常见用法](/notes/Tailwindcss/)
+- [Vue Router 基础](/notes/VueRouter/)
 
 ---
 ## 思考
