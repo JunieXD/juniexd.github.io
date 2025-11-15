@@ -11,18 +11,23 @@ comments: false
 欢迎各位在此分享自己的看法！
 
 ---
-## 笔记
+## 前端学习
 
-- [Git 版本控制](/notes/git/)
-- [Vue 基础知识](/notes/VueBasis/)
-- [Tailwindcss 常见用法](/notes/Tailwindcss/)
-- [Vue Router 基础](/notes/VueRouter/)
+- [Vue 基础知识](/frontend/VueBasis/)
+- [Tailwindcss 常见用法](/frontend/Tailwindcss/)
+- [Vue Router 基础](/frontend/VueRouter/)
+- [Axios 非 2xx 状态码抛异常问题](/frontend/AxiosStatusCodeError/)
+
+---
+## 其他
+
+- [Git 版本控制](/others/git/)
+- [保研经验分享](/others/PosgraRecExp/)
 
 ---
 ## 思考
 
 - [jyy老师的一段话引发的共鸣](/thoughts/jyy/)
-- [保研经验分享](/thoughts/PosgraRecExp/)
 
 ---
  [前往留言板](/comments/)

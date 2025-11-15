@@ -96,15 +96,18 @@ plugins:
 nav:
   - 首页:
     - index.md
-  - 笔记:
-    - notes/index.md
-    - notes/git.md
-    - notes/VueBasis.md
-    - notes/Tailwindcss.md
-    - notes/VueRouter.md
+  - 前端:
+    - frontend/index.md
+    - frontend/VueBasis.md
+    - frontend/Tailwindcss.md
+    - frontend/VueRouter.md
+    - frontend/AxiosStatusCodeError.md
   - 思考:
     - thoughts/index.md
     - thoughts/jyy.md
-    - thoughts/PosgraRecExp.md
+  - 其他:
+    - others/index.md
+    - others/git.md
+    - others/PosgraRecExp.md
   - 留言板:
     - comments/index.md
