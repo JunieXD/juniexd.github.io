@@ -72,7 +72,7 @@ markdown_extensions:
   - pymdownx.superfences
   - attr_list
   - pymdownx.emoji:
-      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
       emoji_generator: !!python/name:materialx.emoji.to_svg
   - meta
 
@@ -102,6 +102,8 @@ nav:
     - frontend/Tailwindcss.md
     - frontend/VueRouter.md
     - frontend/AxiosStatusCodeError.md
+  - 后端:
+    - backend/FastAPIAsyncBug.md
   - 思考:
     - thoughts/index.md
     - thoughts/jyy.md

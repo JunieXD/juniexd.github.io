@@ -19,6 +19,11 @@ comments: false
 - [Axios 非 2xx 状态码抛异常问题](/frontend/AxiosStatusCodeError/)
 
 ---
+## 后端学习
+
+- [一次 FastAPI 异步应用性能优化问题](/backend/FastAPIAsyncBug/)
+
+---
 ## 其他
 
 - [Git 版本控制](/others/git/)
