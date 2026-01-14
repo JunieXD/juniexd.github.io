@@ -5,4 +5,4 @@ comments: false
 
 
 - [Git 版本控制](/notes/git/)
-- [保研经验分享](/thoughts/PosgraRecExp/)
+- [保研经验分享](/others/PosgraRecExp/)
